@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Арсенал Времени</title>
+  </head>
+  <body>
+    <div class="container py-4">
+      <h1 class="text-center mb-4">Арсенал Времени <i class="bi bi-shield-lock"></i></h1>
+
+      <form id="addCardForm" class="row g-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control" id="name" placeholder="Название оружия" required />
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control" id="desc" placeholder="Описание" required />
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-success">
+            Добавить карточку <i class="bi bi-plus-circle"></i>
+          </button>
+        </div>
+      </form>
+
+      <hr class="my-4" />
+
+      <div id="cardContainer" class="row gy-4"></div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

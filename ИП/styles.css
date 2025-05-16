@@ -1,0 +1,37 @@
+body {
+  background-color: #f5f5dc;
+  font-family: Georgia, serif;
+  color: #2e2e2e;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  font-size: 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
