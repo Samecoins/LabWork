@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Список оружия</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+</head>
+<body class="bg-light text-dark">
+  <div class="container mt-4">
+    <h2 class="mb-4 text-center">Список оружия</h2>
+    <div class="text-end mb-3">
+      <a href="weapon-form.html" class="btn btn-success">
+        Добавить оружие <i class="bi bi-plus-circle"></i>
+      </a>
+    </div>
+    <div id="weapon-list" class="row gy-4"></div>
+  </div>
+
+  <script type="module" src="/src/pages/weapons.js"></script>
+</body>
+</html>
+

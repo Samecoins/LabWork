@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Добавить оружие</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+</head>
+<body class="bg-light text-dark">
+  <div class="container py-4">
+    <h2 class="text-center mb-4">Добавление оружия</h2>
+
+    <form id="weaponForm" class="row g-3">
+      <div class="col-md-4">
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          placeholder="Название оружия"
+          required
+        />
+      </div>
+      <div class="col-md-4">
+        <input
+          type="text"
+          class="form-control"
+          id="desc"
+          placeholder="Описание"
+          required
+        />
+      </div>
+      <div class="col-md-4">
+        <select class="form-select" id="category" required>
+          <option value="" selected disabled>Выберите категорию</option>
+          <option value="Пистолет">Пистолет</option>
+          <option value="Автомат">Автомат</option>
+          <option value="Нож">Нож</option>
+        </select>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-success">
+          Сохранить <i class="bi bi-check-circle"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <script type="module" src="/src/pages/weapon-form.js"></script>
+</body>
+</html>
