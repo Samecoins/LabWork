@@ -1,36 +1,95 @@
 {
   "weapons": [
     {
-      "id": 1,
-      "name": "АК-47",
-      "desc": "Автомат Калашникова",
-      "category": "Автомат"
+      "id": "3",
+      "name": "Ka-Barsdasddfsd",
+      "description": "Военный ноasdasж морской пехоты СШАzczxc",
+      "category": "Нож"
     },
     {
-      "id": 2,
-      "name": "Glock 17",
-      "desc": "Пистолет австрийского производства",
+      "id": "5c4b",
+      "name": "укцук",
+      "description": "цкцукцук",
       "category": "Пистолет"
     },
     {
-      "id": 3,
-      "name": "Ka-Bar",
-      "desc": "Военный нож морской пехоты США",
-      "category": "Нож"
+      "id": "5c50",
+      "name": "324",
+      "description": "fgfdgd",
+      "category": "Пистолет"
+    },
+    {
+      "id": "8ed4",
+      "name": "аыва",
+      "description": "ываыв",
+      "category": "Автомат"
+    },
+    {
+      "id": "f539",
+      "name": "пистолет",
+      "description": "стркляет патронами",
+      "category": "Автомат"
     }
   ],
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Пистолет"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Автомат"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Нож"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "weaponId": 1,
+      "text": "Надёжный автомат"
+    },
+    {
+      "id": "2",
+      "weaponId": 2,
+      "text": "Лёгкий и удобный"
+    },
+    {
+      "id": "7cfc",
+      "weaponId": null,
+      "text": "weqeqwe"
+    },
+    {
+      "id": "8ea1",
+      "weaponId": "3",
+      "text": "ыфвфыв"
+    },
+    {
+      "id": "a2e1",
+      "weaponId": null,
+      "text": "аыаыва"
+    },
+    {
+      "id": "012f",
+      "weaponId": "3",
+      "text": "ыва"
+    },
+    {
+      "id": "4680",
+      "weaponId": "3",
+      "text": "cvxcv"
+    },
+    {
+      "id": "e135",
+      "weaponId": "f539",
+      "text": "куртой"
+    },
+    {
+      "id": "30e3",
+      "weaponId": null,
+      "text": "я уста"
     }
   ]
 }

@@ -1,2 +1,5 @@
 import { WeaponController } from '../components/WeaponManager/controller.js';
-WeaponController.init();
+
+document.addEventListener('DOMContentLoaded', () => {
+  WeaponController.init();
+});

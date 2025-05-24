@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    const newWeapon = { name, desc, category };
+    const newWeapon = { name, description: desc, category };
 
     try {
       const response = await fetch(API_URL, {
@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
         throw new Error('Ошибка при добавлении оружия');
       }
 
-      // После успешного добавления — редирект обратно на список
       window.location.href = '/weapons.html';
     } catch (error) {
       console.error(error);
