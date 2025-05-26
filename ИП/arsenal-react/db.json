@@ -1,0 +1,244 @@
+{
+  "weapons": [
+    {
+      "id": "ak47",
+      "name": "АК-47",
+      "description": "Надёжный автомат Калашникова",
+      "category": "Автомат",
+      "purchased": false,
+      "comments": [
+        {
+          "id": "c1",
+          "weaponId": "ak47",
+          "text": "Классика! Надёжный и простой."
+        },
+        {
+          "id": "c2",
+          "weaponId": "ak47",
+          "text": "Отличен в любых условиях."
+        },
+        {
+          "id": "c22",
+          "weaponId": "ak47",
+          "text": "Звуки выстрелов просто шикарны."
+        }
+      ]
+    },
+    {
+      "id": "glock",
+      "name": "Glock 17",
+      "description": "Популярный австрийский пистолет",
+      "category": "Пистолет",
+      "purchased": true,
+      "comments": [
+        {
+          "id": "c3",
+          "weaponId": "glock",
+          "text": "Лёгкий и точный, люблю этот пистолет."
+        },
+        {
+          "id": "c23",
+          "weaponId": "glock",
+          "text": "Идеален для новичков."
+        }
+      ]
+    },
+    {
+      "id": "m4a1",
+      "name": "M4A1",
+      "description": "Американский автомат с низкой отдачей",
+      "category": "Автомат",
+      "purchased": false
+    },
+    {
+      "id": "desert",
+      "name": "Desert Eagle",
+      "description": "Мощный пистолет с большим калибром",
+      "category": "Пистолет",
+      "purchased": false
+    },
+    {
+      "id": "bayonet",
+      "name": "Bayonet Knife",
+      "description": "Нож армейского образца",
+      "category": "Нож",
+      "purchased": true
+    },
+    {
+      "id": "karambit",
+      "name": "Karambit",
+      "description": "Филиппинский изогнутый нож",
+      "category": "Нож",
+      "purchased": false
+    },
+    {
+      "id": "usp",
+      "name": "USP-S",
+      "description": "Пистолет с глушителем, тихий и точный",
+      "category": "Пистолет",
+      "purchased": true
+    },
+    {
+      "id": "famas",
+      "name": "FAMAS",
+      "description": "Французский автомат со скоростной стрельбой",
+      "category": "Автомат",
+      "purchased": false
+    },
+    {
+      "id": "butterfly",
+      "name": "Butterfly Knife",
+      "description": "Складной нож с уникальной анимацией",
+      "category": "Нож",
+      "purchased": false
+    },
+    {
+      "id": "mp5",
+      "name": "MP5",
+      "description": "Компактный пистолет-пулемёт",
+      "category": "Автомат",
+      "purchased": true
+    },
+    {
+      "id": "five7",
+      "name": "Five-SeveN",
+      "description": "Пистолет с высокой пробиваемостью",
+      "category": "Пистолет",
+      "purchased": false
+    },
+    {
+      "id": "huntsman",
+      "name": "Huntsman Knife",
+      "description": "Массивный нож охотничьего типа",
+      "category": "Нож",
+      "purchased": false
+    }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "weaponId": "ak47",
+      "text": "Классика! Надёжный и простой."
+    },
+    {
+      "id": "c2",
+      "weaponId": "ak47",
+      "text": "Отличен в любых условиях."
+    },
+    {
+      "id": "c3",
+      "weaponId": "glock",
+      "text": "Лёгкий и точный, люблю этот пистолет."
+    },
+    {
+      "id": "c4",
+      "weaponId": "m4a1",
+      "text": "Подходит для тренировок, хорошая отдача."
+    },
+    {
+      "id": "c5",
+      "weaponId": "m4a1",
+      "text": "Американский стандарт, что ещё сказать?"
+    },
+    {
+      "id": "c6",
+      "weaponId": "desert",
+      "text": "Слишком тяжёлый, но мощный!"
+    },
+    {
+      "id": "c7",
+      "weaponId": "bayonet",
+      "text": "Покупал для коллекции — доволен."
+    },
+    {
+      "id": "c8",
+      "weaponId": "karambit",
+      "text": "Очень красивый и удобный!"
+    },
+    {
+      "id": "c9",
+      "weaponId": "karambit",
+      "text": "Подходит для ближнего боя."
+    },
+    {
+      "id": "c10",
+      "weaponId": "usp",
+      "text": "Тихий выстрел и высокая точность."
+    },
+    {
+      "id": "c11",
+      "weaponId": "usp",
+      "text": "Глушитель делает своё дело!"
+    },
+    {
+      "id": "c12",
+      "weaponId": "famas",
+      "text": "Хорош на ближней дистанции."
+    },
+    {
+      "id": "c13",
+      "weaponId": "famas",
+      "text": "Необычная отдача, но привыкаешь."
+    },
+    {
+      "id": "c14",
+      "weaponId": "butterfly",
+      "text": "Очень красивый нож!"
+    },
+    {
+      "id": "c15",
+      "weaponId": "butterfly",
+      "text": "Анимация топовая."
+    },
+    {
+      "id": "c16",
+      "weaponId": "mp5",
+      "text": "Люблю с ним бегать, удобный."
+    },
+    {
+      "id": "c17",
+      "weaponId": "mp5",
+      "text": "Низкий урон, но высокая скорострельность."
+    },
+    {
+      "id": "c18",
+      "weaponId": "five7",
+      "text": "Пробивает броню, это плюс!"
+    },
+    {
+      "id": "c19",
+      "weaponId": "five7",
+      "text": "Не слишком мощный, но надёжный."
+    },
+    {
+      "id": "c20",
+      "weaponId": "huntsman",
+      "text": "Огромный нож! Красиво смотрится."
+    },
+    {
+      "id": "c21",
+      "weaponId": "huntsman",
+      "text": "Подходит для коллекции."
+    },
+    {
+      "id": "c22",
+      "weaponId": "ak47",
+      "text": "Звуки выстрелов просто шикарны."
+    },
+    {
+      "id": "c23",
+      "weaponId": "glock",
+      "text": "Идеален для новичков."
+    },
+    {
+      "id": "c24",
+      "weaponId": "desert",
+      "text": "Каждый выстрел как удар молота."
+    },
+    {
+      "id": "c25",
+      "weaponId": "mp5",
+      "text": "Моя любимая пушка!"
+    }
+  ]
+}
