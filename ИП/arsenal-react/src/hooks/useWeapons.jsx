@@ -1,8 +1,8 @@
 // src/hooks/useWeapons.js
 import { useEffect, useState } from 'react';
 
-const API_URL = 'http://localhost:3000/weapons';
-const COMMENT_API = 'http://localhost:3000/comments';
+const API_URL = 'http://localhost:8080/api/1.0/weapons';
+const COMMENT_API = 'http://localhost:8080/api/1.0/comments';
 
 export function useWeapons() {
   const [weapons, setWeapons] = useState([]);
@@ -75,18 +75,21 @@ export function useWeapons() {
   };
 
   const purchaseWeapon = async (id) => {
+    const weapon = weapons.find(w => w.id === id);
+
+    const updated = { ...weapon, purchased: true };
+
     await fetch(`${API_URL}/${id}`, {
-      method: 'PATCH',
+      method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ purchased: true })
+      body: JSON.stringify(updated)
     });
 
     setWeapons(prev =>
-      prev.map(w =>
-        w.id === id ? { ...w, purchased: true } : w
-      )
+      prev.map(w => (w.id === id ? updated : w))
     );
   };
+
 
   return {
     weapons,
